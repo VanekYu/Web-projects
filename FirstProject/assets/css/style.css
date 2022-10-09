@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+*,
+*::before
+*::after
+{
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Starting */
+.starting {
+    text-align: center;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/intro.jpg") center 
+    no-repeat;
+    background-size: cover;
+}
+
+.general {
+    text-align: center;
+}
